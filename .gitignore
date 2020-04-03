@@ -1,1 +1,4 @@
 /.idea/
+other.py
+.pytest_cache
+geckodriver.log
