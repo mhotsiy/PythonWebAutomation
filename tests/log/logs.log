@@ -1,26 +1,5 @@
-2020-03-30 19:21:01,652 - root - ERROR - The error 2003: Can't connect to MySQL server on 'MacBook-Pro-Maran.local:3306' (8 nodename nor servname provided, or not known) occurred
-2020-03-30 19:30:48,268 - root - ERROR - The error 2003: Can't connect to MySQL server on 'MacBook-Pro-Maran.local:3306' (8 nodename nor servname provided, or not known) occurred
-2020-03-30 19:39:37,447 - root - ERROR - The error 2003: Can't connect to MySQL server on 'MacBook-Pro-Maran.local:3306' (8 nodename nor servname provided, or not known) occurred
-2020-03-30 19:40:33,406 - root - ERROR - The error 2003: Can't connect to MySQL server on 'MacBook-Pro-Maran.local:3306' (8 nodename nor servname provided, or not known) occurred
-2020-03-30 19:42:47,564 - root - INFO - Connection to MySQL DB successful
-2020-03-30 19:43:06,151 - root - ERROR - The error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES) occurred
-2020-03-30 19:43:16,787 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:40:47,600 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:41:30,102 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:46:55,958 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:46:55,959 - root - INFO - Connection was closed
-2020-03-31 16:48:04,832 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:51:13,831 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:59:20,901 - root - INFO - Connection to MySQL DB successful
-2020-03-31 16:59:20,902 - root - INFO - Connection 8.0.19 was closed
-2020-03-31 17:00:07,494 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:00:07,495 - root - INFO - Connection 127.0.0.1 was closed
-2020-03-31 17:01:11,691 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:01:21,993 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:01:21,994 - root - INFO - Connection 127.0.0.1 was closed
-2020-03-31 17:09:43,572 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:09:43,574 - root - INFO - Connection 127.0.0.1 was closed
-2020-03-31 17:10:29,520 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:10:29,521 - root - INFO - Connection 127.0.0.1 was closed
-2020-03-31 17:11:28,851 - root - INFO - Connection to MySQL DB successful
-2020-03-31 17:11:28,853 - root - INFO - Connection 127.0.0.1 was closed
+2020-04-05 10:43:28,005 - root - INFO - start firefox browser for test..
+2020-04-05 10:43:29,044 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:61316/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+2020-04-05 10:43:29,045 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:61316
+2020-04-05 10:43:30,891 - urllib3.connectionpool - DEBUG - http://127.0.0.1:61316 "POST /session HTTP/1.1" 500 110
+2020-04-05 10:43:30,893 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request

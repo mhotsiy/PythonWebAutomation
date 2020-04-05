@@ -459,3 +459,10 @@ console.warn: services.settings: Signature verified failed for main/cfr-fxa. Ret
 1585244351941	Marionette	INFO	Listening on port 64241
 1585244351981	Marionette	WARN	TLS certificate errors will be ignored for this session
 1585244368144	Marionette	INFO	Stopped listening on port 64241
+1586072609070	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lt/nkz8plcs0sq486_r3r907q8w0000gn/T/rust_mozprofilebLgQBv"
+1586072615204	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586072615741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586072615741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586072615742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586072615742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586072619693	Marionette	INFO	Listening on port 61327

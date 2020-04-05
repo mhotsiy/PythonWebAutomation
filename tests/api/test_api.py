@@ -6,7 +6,7 @@ from pageobjects.api_base import ApiBase
 @mark.api
 class TestApi:
 
-    url = 'http://api.zippopotam.us/us/90210'
+    URL = 'http://api.zippopotam.us/us/90210'
 
     def test_get_locations_for_us_90210_check_status_code_equals_200(self):
         self.response = requests.get(self.URL)

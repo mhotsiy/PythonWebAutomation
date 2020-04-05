@@ -12,12 +12,6 @@ from pytest import mark
 from pageobjects.home_user_page import HomeUserPage
 
 
-
-
-
-
-
-
 @mark.ui
 @mark.linkdn
 @mark.login_page
@@ -41,12 +35,6 @@ class TestBase:
         home_user_page = HomeUserPage(browser)
         home_user_page.page_is_loaded()
         Screenshot.take_screenshot(browser, 'name')
-
-
-
-
-
-
 
     @mark.checkbox
     def test_checkbox_is_not_selected(self, browser):
