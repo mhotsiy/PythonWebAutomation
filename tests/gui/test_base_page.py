@@ -1,15 +1,9 @@
-from time import sleep
 import allure
 from allure_commons.types import AttachmentType
-from selenium.webdriver.android.webdriver import WebDriver
-from selenium import webdriver
-
-from helpers.screenshot import Screenshot
-from pageobjects import *
-from pageobjects.login_page import LoginPage
-from pageobjects.page import Page
 from pytest import mark
+from helpers.screenshot import Screenshot
 from pageobjects.home_user_page import HomeUserPage
+from pageobjects.login_page import LoginPage
 
 
 @mark.ui
