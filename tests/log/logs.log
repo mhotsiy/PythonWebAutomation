@@ -1,5 +1,0 @@
-2020-04-05 10:43:28,005 - root - INFO - start firefox browser for test..
-2020-04-05 10:43:29,044 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:61316/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-2020-04-05 10:43:29,045 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:61316
-2020-04-05 10:43:30,891 - urllib3.connectionpool - DEBUG - http://127.0.0.1:61316 "POST /session HTTP/1.1" 500 110
-2020-04-05 10:43:30,893 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request

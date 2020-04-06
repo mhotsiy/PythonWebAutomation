@@ -36,6 +36,7 @@ class TestBase:
         home_user_page.page_is_loaded()
         Screenshot.take_screenshot(browser, 'name')
 
+    @mark.allure
     @mark.checkbox
     def test_checkbox_is_not_selected(self, browser):
         login_page = LoginPage(browser)

@@ -3,14 +3,13 @@ from helpers.test_logger import TestLogger
 from mysql.connector import Error, MySQLConnection
 
 
-class DbConnection(MySQLConnection):
-    #connection = None
-    #HOST = '127.0.0.1'
-    #USER_NAME = 'root'
-    #PASSWORD = 'Qwerty123'
+class DbConnection():
+    # connection = None
+    # HOST = '127.0.0.1'
+    # USER_NAME = 'root'
+    # PASSWORD = 'Qwerty123'
 
-    def __init__(self, host_name, user_name, user_password, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+    def __init__(self, host_name, user_name, user_password):
         self.host_name = host_name
         self.user_name = user_name
         self.user_password = user_password
@@ -39,15 +38,5 @@ class DbConnection(MySQLConnection):
             TestLogger.get_logger().error(f'The error {e} occurred, connection was not closed')
 
 
-
-conn = DbConnection()
-
-
-
-
-
-
-
-
-
-
+conn = DbConnection('127.0.0.1', 'root', 'Qwerty123')
+conn.connect()

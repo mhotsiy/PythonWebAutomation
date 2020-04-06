@@ -1,0 +1,39 @@
+2020-04-06 10:41:45,764 - root - INFO - start firefox browser for test..
+2020-04-06 10:41:45,842 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+2020-04-06 10:41:45,845 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:51775
+2020-04-06 10:41:49,924 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session HTTP/1.1" 200 737
+2020-04-06 10:41:49,929 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:49,938 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/url {"url": "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"}
+2020-04-06 10:41:51,139 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/url HTTP/1.1" 200 14
+2020-04-06 10:41:51,141 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,142 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element {"using": "css selector", "value": "#username"}
+2020-04-06 10:41:51,197 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element HTTP/1.1" 200 88
+2020-04-06 10:41:51,197 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,198 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/aa541bd9-85a2-1949-88c0-8b1874288c18/value {"text": "m.hotsiy@gmail.com", "value": ["m", ".", "h", "o", "t", "s", "i", "y", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "aa541bd9-85a2-1949-88c0-8b1874288c18"}
+2020-04-06 10:41:51,282 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/aa541bd9-85a2-1949-88c0-8b1874288c18/value HTTP/1.1" 200 14
+2020-04-06 10:41:51,283 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,283 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element {"using": "css selector", "value": "#password"}
+2020-04-06 10:41:51,328 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element HTTP/1.1" 200 88
+2020-04-06 10:41:51,329 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,330 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/612ad4f2-a087-dc4e-9e59-a9e072ec32e5/value {"text": "carlsberg1994", "value": ["c", "a", "r", "l", "s", "b", "e", "r", "g", "1", "9", "9", "4"], "id": "612ad4f2-a087-dc4e-9e59-a9e072ec32e5"}
+2020-04-06 10:41:51,403 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/612ad4f2-a087-dc4e-9e59-a9e072ec32e5/value HTTP/1.1" 200 14
+2020-04-06 10:41:51,404 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,405 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element {"using": "css selector", "value": "button"}
+2020-04-06 10:41:51,411 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element HTTP/1.1" 200 88
+2020-04-06 10:41:51,412 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:51,412 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/4cd62162-1e17-b141-b7af-0b546a4083b9/click {"id": "4cd62162-1e17-b141-b7af-0b546a4083b9"}
+2020-04-06 10:41:58,570 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "POST /session/18874e97-0d16-0541-ad9c-9b863410a2ac/element/4cd62162-1e17-b141-b7af-0b546a4083b9/click HTTP/1.1" 200 14
+2020-04-06 10:41:58,574 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:58,575 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/cookie {}
+2020-04-06 10:41:58,621 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "GET /session/18874e97-0d16-0541-ad9c-9b863410a2ac/cookie HTTP/1.1" 200 2861
+2020-04-06 10:41:58,622 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:58,623 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/url {}
+2020-04-06 10:41:58,635 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "GET /session/18874e97-0d16-0541-ad9c-9b863410a2ac/url HTTP/1.1" 200 85
+2020-04-06 10:41:58,638 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:58,643 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac/screenshot {}
+2020-04-06 10:41:58,983 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "GET /session/18874e97-0d16-0541-ad9c-9b863410a2ac/screenshot HTTP/1.1" 200 268792
+2020-04-06 10:41:58,984 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:41:58,991 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://127.0.0.1:51775/session/18874e97-0d16-0541-ad9c-9b863410a2ac {}
+2020-04-06 10:42:02,831 - urllib3.connectionpool - DEBUG - http://127.0.0.1:51775 "DELETE /session/18874e97-0d16-0541-ad9c-9b863410a2ac HTTP/1.1" 200 14
+2020-04-06 10:42:02,832 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-04-06 10:42:02,833 - root - INFO - Browser is closed

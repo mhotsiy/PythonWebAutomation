@@ -13,8 +13,8 @@ class TestLogger:
         if not cls.__logger:
             formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-            file_handler = logging.FileHandler(os.path.join('..','..','tests', 'log', '{}'.format(cls.__log_file_name)))
-            file_handler.setFormatter(formatter)
+           # file_handler = logging.FileHandler(cls.__log_file_name)
+           # file_handler.setFormatter(formatter)
 
             console_handler = logging.StreamHandler()
             console_handler.setFormatter(formatter)
@@ -22,7 +22,7 @@ class TestLogger:
             cls.__logger = logging.getLogger()
             cls.__logger.setLevel(logging.DEBUG)
 
-            cls.__logger.addHandler(file_handler)
+            #cls.__logger.addHandler(file_handler)
             cls.__logger.addHandler(console_handler)
 
         return cls.__logger
